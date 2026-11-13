@@ -36,3 +36,20 @@ def add_student():
     }
     students.append(student)
 
+
+# Task 2: functions
+def average(student):
+    """Return the mean of the three scores."""
+    return (student["aptitude"] + student["verbal"] + student["coding"]) / 3
+
+
+def grade(avg):
+    """Return the grade for an average mark."""
+    if avg >= 80:
+        return "A"
+    elif avg >= 60:
+        return "B"
+    elif avg >= 40:
+        return "C"
+    return "Needs practice"
+
