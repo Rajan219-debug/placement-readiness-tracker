@@ -53,3 +53,13 @@ def grade(avg):
         return "C"
     return "Needs practice"
 
+
+def top_scorer(students):
+    """Return the student with the highest average."""
+    return max(students, key=average)
+
+
+def needs_practice(students, limit=40):
+    """Return the students whose average is below limit."""
+    return [s for s in students if average(s) < limit]
+
