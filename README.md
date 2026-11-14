@@ -1,4 +1,4 @@
-cat > README.md <<'EOF'
+
 # Placement Readiness Tracker
 
 Command-line tool (IRP-II, CSE2596) that records students' practice-test
@@ -25,7 +25,7 @@ Roll  Name              Apt  Verb  Code     Avg  Grade
 2303  Kabir Singh        35    40    30   35.00  Needs practice
 2304  Meera Nair         92    88    95   91.67  A
 2305  Rohan Gupta        60    45    70   58.33  C
-2306  Isha Patel         70    65    72   69.00  B
+2306  Rajan Kumar        70    65    72   69.00  B
 
 Top scorer: Meera Nair (average 91.67)
 Students needing extra practice:
